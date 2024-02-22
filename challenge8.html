@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Challenge 7</h1>
+<body>
+    <script>
+         const usernum = prompt("Give me a number ");
+        if(usernum < 10){
+            console.log("Your number is smaller than 10");
+            for (let i=0; i<10; i++){
+                console.log(`here is you number ${i}` )
+                if ( i == usernum){
+                    console.log(`<---- ${usernum}`)
+                }
+                
+            }
+        }
+        else if (usernum > 10 ) {
+            console.log("You entered a big number");
+        }
+        else{
+            console.log("Error")
+        }
+    </script>
+</body>
+</html>
